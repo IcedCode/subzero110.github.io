@@ -4,15 +4,35 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+ 
+ 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-image: url("stardust.png");
+
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+header.carousel {
+    height: 50%;
+}
 
 .business-header {
+	padding-top: 50px;
     height: 400px;
     background: url('http://i.imgur.com/Vl37XPC.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron {
+	padding-top: 50px;
+    height: 400px;
+    background: url('http://i.imgur.com/hpZGyNw.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
