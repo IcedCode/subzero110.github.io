@@ -30,9 +30,8 @@ header.carousel {
 }
 
 .jumbotron {
-	padding-top: 50px;
-    height: 400px;
-    background: url('http://i.imgur.com/hpZGyNw.png') center center no-repeat scroll;
+    height: 550px;
+    background: url('lobby.png') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
